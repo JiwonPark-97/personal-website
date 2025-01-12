@@ -8,12 +8,6 @@
     align-items: center; /* Center horizontally */
 }
 
-.contact-container h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-    text-align: center; /* Center-align header */
-}
-
 .contact-info {
     text-align: center; /* Center-align the text */
     font-size: 1.2rem; /* Base font size for the email and phone text */
@@ -25,7 +19,7 @@
 }
 
 .contact-info h3 {
-    font-size: 1.8rem; /* Larger font size for headers */
+    font-size: 1.3rem; /* Larger font size for headers */
     margin-bottom: 10px; /* Add spacing below the headers */
 }
 
@@ -33,4 +27,5 @@
     font-size: 1rem; /* Keep the actual text smaller */
     color: #333; /* Darker text for contrast */
     margin: 0; /* Remove extra margin */
+    margin-bottom: 30px;
 }

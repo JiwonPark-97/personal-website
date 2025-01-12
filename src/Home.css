@@ -11,16 +11,18 @@
     padding: 0;
   }
   
-  .home-title {
-    font-size: 3.5rem; /* Big font size for greeting */
-    color: #20232a; /* Dark text */
-    margin: 0;
-  }
-  
-  .home-intro {
-    font-size: 1.2rem; /* Smaller font for intro */
-    color: #555; /* Lighter gray text */
-    margin-top: 20px;
-    line-height: 1.5;
-  }
-  
+.home-title {
+  font-size: 3.5rem; /* Big font size for greeting */
+  color: #20232a; /* Dark text */
+  margin: 0;
+}
+
+.card a {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Use the same color as the parent */
+}
+
+.card a:hover h2 {
+  color: #626569;
+  transition: color 0.3s ease-in-out;
+}

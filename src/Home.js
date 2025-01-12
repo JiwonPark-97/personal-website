@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom"
 import "./Home.css";
 
 function Home() {
@@ -13,21 +14,24 @@ function Home() {
             {/* Summary Sections */}
             <div className="summary-cards">
                 <div className="card">
-                    <h2>About Me</h2>
+                    <Link to="/about">
+                        <h2>About Me</h2>
+                    </Link>
                     <p>Learn more about my background, hobbies, and what drives me as a developer.</p>
                 </div>
                 <div className="card">
-                    <h2>Projects</h2>
+                    <Link to="/projects">
+                        <h2>Projects</h2>
+                    </Link>
                     <p>Check out some of the apps and websites I've built using React, Python, and more.</p>
                 </div>
                 <div className="card">
-                    <h2>Coursework</h2>
+                    <Link to="/coursework">
+                        <h2>Coursework</h2>
+                    </Link>
                     <p>A showcase of the CS courses that have shaped my technical foundation.</p>
                 </div>
             </div>
-
-            {/* Call to Action */}
-            <button className="cta-button">Explore My Work</button>
         </div>
     );
 }

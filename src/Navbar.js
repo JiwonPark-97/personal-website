@@ -10,6 +10,7 @@ function Navbar() {
                 <li> <Link to = "/about"> About Me </Link></li>
                 <li> <Link to = "/coursework"> Coursework </Link></li>
                 <li> <Link to = "/projects"> Projects </Link></li>
+                <li> <Link to = "/research"> Research </Link></li>
                 <li> <Link to = "/contact"> Contact </Link></li>
             </ul>
         </nav>
